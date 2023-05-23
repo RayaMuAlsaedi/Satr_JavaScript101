@@ -1,7 +1,8 @@
-const colors = ['red', 'green', 'blue'];
-let i =0;
-do {
-    console.log(colors[i]);
-    i++
+const message = 'Welcome to Javascript';
+let i =5;
+do  {
+    console.log(message);
+    i++;
 }
-while (i<colors.length);
+while (i < 5);
+console.log('***');
